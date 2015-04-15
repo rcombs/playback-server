@@ -27,7 +27,7 @@ function prepareNearest (date) {
 function startItem (item) {
     if (item && item.filename)
         return exp.player.loadfile(item.filename);
-    return exp.player.loadfile("/Users/rcombs/Downloads/tardis.mp4");
+    return exp.player.loadfile(exp.config.defaultFile);
 }
 
 function startCurrent () {
