@@ -1,0 +1,10 @@
+{
+    "db": "playback-test",
+    "plugins": {
+        "http": {
+            "port": 6565,
+            "address": "0.0.0.0"
+        },
+        "schedule": {}
+    }
+}

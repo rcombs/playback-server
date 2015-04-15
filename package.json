@@ -1,0 +1,18 @@
+{
+  "name": "playback-server",
+  "version": "0.0.1",
+  "description": "Media playback server using mpv",
+  "bin": "./main.js",
+  "author": "Rodger Combs",
+  "license": "MIT",
+  "dependencies": {
+    "express": ">=4.11.2",
+    "mpv": ">=0.0.1",
+    "promised-mongo": "*",
+    "q": ">=1.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rcombs/playback-server.git"
+  }
+}

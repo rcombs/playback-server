@@ -1,0 +1,12 @@
+
+- var title = "Schedule"
+
+extends layout
+
+block content
+  h1 Schedule
+  table
+    each item in items
+      tr
+        td= item.title
+
