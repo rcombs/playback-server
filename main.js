@@ -1,5 +1,5 @@
 var fs = require('fs'),
-    mpv = require('../node-mpv'),
+    mpv = require('mpv'),
     pmongo = require('promised-mongo');
 
 var conf = JSON.parse(fs.readFileSync(process.argv[2] || "config.json"));

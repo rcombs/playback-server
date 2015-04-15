@@ -6,10 +6,10 @@
   "author": "Rodger Combs",
   "license": "MIT",
   "dependencies": {
-    "express": ">=4.11.2",
-    "mpv": ">=0.0.1",
-    "promised-mongo": "*",
-    "q": ">=1.1.2"
+    "express": "^4.12.3",
+    "mpv": "^0.0.2",
+    "promised-mongo": "^0.11.1",
+    "q": "^1.2.0"
   },
   "repository": {
     "type": "git",
